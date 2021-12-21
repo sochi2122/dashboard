@@ -10,20 +10,19 @@ import './App.css';
 
 function App() {
   return (
+
+    <main>
     <div className="container">
 
      
       <div class="Reviews">  <Reviews /> </div>
-      <div class="Rating">      <Rating /> </div>
-
-  <div class="Analysis">       <Analysis /> </div>
-  <div class="Visitors">       <Visitors /> </div>
-  <div class="Sidebar">       <Sidebar /> </div>
-
-
-
+      <div class="Rating">   <Rating /> </div>
+      <div class="Analysis"> <Analysis /> </div>
+      <div class="Visitors"> <Visitors /> </div>
+      <div class="Sidebar">  <Sidebar /> </div>
 
     </div>
+    </main>
   )
   }
 

@@ -39,51 +39,67 @@
 
 
 
+main{
+  flex-grow: inherit;
+}
+
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 2em 1em;
   grid-auto-flow: row dense;
   grid-template-areas:
       "Sidebar Reviews Rating Analysis"
+      "Sidebar Visitors Visitors Visitors"
       "Sidebar Visitors Visitors Visitors";
+      margin: 1em;
+
 }
 
 .Reviews { 
   grid-area: Reviews; 
   align-items: left;
-  background-color: red;
+  background-color: black;
+
 
 }
 
 .Rating { 
   grid-area: Rating;
   align-items: left;
+  background-color: black;
+
  }
 
 .Analysis { 
   grid-area: Analysis; 
   align-items: left;
+  background-color: black;
+
 
 }
 
 .Visitors { 
   grid-area: Visitors;
   align-items: left;
+  background-color: black;
+
  }
 
  .Sidebar{
    grid-area: Sidebar;
-   align-items: center;
-   align-self: center;
-   justify-content: center;
    padding-left: 2em;
-
-
+   padding-top: 6em;
+   background-color: black;
 
  }
 
 
+
+ *{
+  color: white;
+
+ }
 
 
 
