@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2em 1em;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+      "Sidebar Reviews Rating Analysis"
+      "Sidebar Visitors Visitors Visitors";
+}
+
+.Reviews { 
+  grid-area: Reviews; 
+  align-items: left;
+  background-color: red;
+
+}
+
+.Rating { 
+  grid-area: Rating;
+  align-items: left;
+ }
+
+.Analysis { 
+  grid-area: Analysis; 
+  align-items: left;
+
+}
+
+.Visitors { 
+  grid-area: Visitors;
+  align-items: left;
+ }
+
+ .Sidebar{
+   grid-area: Sidebar;
+   align-items: center;
+   align-self: center;
+   justify-content: center;
+   padding-left: 2em;
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
