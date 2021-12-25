@@ -59,7 +59,7 @@ main{
 .Reviews { 
   grid-area: Reviews; 
   align-items: left;
-  background-color: black;
+  background-color: rgb(194, 191, 191);
 
 
 }
@@ -67,14 +67,14 @@ main{
 .Rating { 
   grid-area: Rating;
   align-items: left;
-  background-color: black;
+  background-color: rgb(194, 191, 191);
 
  }
 
 .Analysis { 
   grid-area: Analysis; 
   align-items: left;
-  background-color: black;
+  background-color: rgb(194, 191, 191);
 
 
 }
@@ -82,25 +82,31 @@ main{
 .Visitors { 
   grid-area: Visitors;
   align-items: left;
-  background-color: black;
+  background-color: rgb(194, 191, 191);
 
  }
 
  .Sidebar{
    grid-area: Sidebar;
-   padding-left: 2em;
    padding-top: 6em;
-   background-color: black;
+   background-color: rgb(194, 191, 191);
 
  }
 
 
 
  *{
-  color: white;
+  color: black;
 
  }
 
+
+ p{
+   text-align: center;
+
+
+
+ }
 
 
 
