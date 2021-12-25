@@ -109,10 +109,20 @@ main{
  }
 
 
+.Box{
+  justify-content: center;
+  align-items: center;
+  background-color: #BEBDBD;
+  width: 90%;
+  height:10em;
+  border:1px solid #000;
+  margin: 2em;
+
+
+}
 
 
 
 
 
-
- 
+ `
